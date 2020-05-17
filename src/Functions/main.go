@@ -1,14 +1,18 @@
 package main
 import(
 	"fmt"
-	"functions"
+	
 )
 
 func main(){
 	a:=100
 	b:=20
-	c:=functions.add(a,b)
+	c:=add(a,b)
 	fmt.Println("c=",c)
-	div,rem := functions.divmod(a,b)
+	div,rem := divmod(a,b)
 	fmt.Println("Result=",div,"Reminder=",rem)
+	//Using DoubleValue Function
+	values:=[]int {1,2,3,4}
+	doubleValue(values,2)
+	fmt.Println(values)
 }
