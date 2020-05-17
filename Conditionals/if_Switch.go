@@ -25,7 +25,7 @@ func main(){
 	default:
 		fmt.Printf("default switch")
 	}
-	for i:=0;i<5;i++ {
+	for i:=0;i<5;i++{
 		fmt.Printf("i=%v\n",i)
 	}
 	//Like While loop
