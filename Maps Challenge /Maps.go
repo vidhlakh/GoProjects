@@ -43,5 +43,12 @@ func main(){
 		
 	}
 	fmt.Println(wordMap)
-	
+
+	//Another method
+	counts:=map[string]int{}
+	for _,word :=range(words){
+		counts[strings.ToLower(word)]++
+
+	}
+	fmt.Println("Counts:",counts)	
 }
