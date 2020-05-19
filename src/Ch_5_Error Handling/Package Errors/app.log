@@ -1,0 +1,10 @@
+2020/05/19 09:50:36 errror:open path: no such file or directory
+Cant open th efile 
+main.readConfig
+	/home/vidhlakh/Documents/GoProjects/src/Ch_5_Error Handling/Package Errors/Errors.go:20
+main.main
+	/home/vidhlakh/Documents/GoProjects/src/Ch_5_Error Handling/Package Errors/Errors.go:39
+runtime.main
+	/usr/lib/go-1.13/src/runtime/proc.go:203
+runtime.goexit
+	/usr/lib/go-1.13/src/runtime/asm_amd64.s:1357
